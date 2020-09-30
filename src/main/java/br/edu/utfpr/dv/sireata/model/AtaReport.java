@@ -3,9 +3,9 @@ package br.edu.utfpr.dv.sireata.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AtaReport {
+public class AtaReport extends Departamento {
 	
-	public String departamento;
+	public Departamento departamento;
 	public String orgao;
 	public String numero;
 	public String dataHora;
@@ -17,7 +17,7 @@ public class AtaReport {
 	public String texto;
 	
 	public AtaReport(){
-		this.setDepartamento("");
+		this.setDepartamento(new Departamento());
 		this.setOrgao("");
 		this.setNumero("");
 		this.setDataHora("");
@@ -29,10 +29,10 @@ public class AtaReport {
 		this.setTexto("");
 	}
 	
-	public String getDepartamento() {
+	public Departamento getDepartamento() {
 		return departamento;
 	}
-	public void setDepartamento(String departamento) {
+	public void setDepartamento(Departamento departamento) {
 		this.departamento = departamento;
 	}
 	public String getOrgao() {

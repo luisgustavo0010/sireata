@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 import br.edu.utfpr.dv.sireata.dao.ComentarioDAO;
 import br.edu.utfpr.dv.sireata.model.Comentario;
-import br.edu.utfpr.dv.sireata.model.SituacaoComentario;
+import br.edu.utfpr.dv.sireata.model.Comentario.SituacaoComentario;
 
 
 public class ComentarioBO {
