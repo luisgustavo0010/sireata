@@ -1,6 +1,6 @@
 package br.edu.utfpr.dv.sireata.model;
 
-public class Usuario {
+public class Usuario extends Ativo {
 	
 	private int idUsuario;
 	private String nome;

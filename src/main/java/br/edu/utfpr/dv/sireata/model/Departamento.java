@@ -1,6 +1,6 @@
 package br.edu.utfpr.dv.sireata.model;
 
-public class Departamento {
+public class Departamento extends Ativo {
 	
 	private int idDepartamento;
 	private Campus campus;

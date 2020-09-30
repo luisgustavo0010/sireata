@@ -1,12 +1,11 @@
 package br.edu.utfpr.dv.sireata.model;
 
-public class Campus {
+public class Campus extends Ativo {
 	
 	private int idCampus;
 	private String nome;
 	private String endereco;
 	private byte[] logo;
-	private boolean ativo;
 	private String site;
 	
 	public Campus(){

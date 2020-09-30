@@ -22,7 +22,6 @@ public class Orgao extends Ativo {
 		this.setNome("");
 		this.setNomeCompleto("");
 		this.setDesignacaoPresidente("");
-		this.setAtivo(true);
 		this.setMembros(new ArrayList<OrgaoMembro>());
 	}
 	
