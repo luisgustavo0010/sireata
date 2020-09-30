@@ -7,7 +7,6 @@ public class Departamento {
 	private String nome;
 	private String nomeCompleto;
 	private byte[] logo;
-	private boolean ativo;
 	private String site;
 	
 	public Departamento(){
@@ -16,7 +15,6 @@ public class Departamento {
 		this.setNome("");
 		this.setNomeCompleto("");
 		this.setLogo(null);
-		this.setAtivo(true);
 		this.setSite("");
 	}
 	
@@ -49,12 +47,6 @@ public class Departamento {
 	}
 	public void setLogo(byte[] logo) {
 		this.logo = logo;
-	}
-	public boolean isAtivo() {
-		return ativo;
-	}
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
 	}
 	public String getSite(){
 		return site;

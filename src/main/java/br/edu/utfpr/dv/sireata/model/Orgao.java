@@ -3,7 +3,7 @@ package br.edu.utfpr.dv.sireata.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Orgao {
+public class Orgao extends Ativo {
 	
 	private int idOrgao;
 	private Departamento departamento;
@@ -12,7 +12,6 @@ public class Orgao {
 	private String nome;
 	private String nomeCompleto;
 	private String designacaoPresidente;
-	private boolean ativo;
 	private List<OrgaoMembro> membros;
 
 	public Orgao(){
@@ -68,12 +67,6 @@ public class Orgao {
 	}
 	public void setDesignacaoPresidente(String designacaoPresidente) {
 		this.designacaoPresidente = designacaoPresidente;
-	}
-	public boolean isAtivo() {
-		return ativo;
-	}
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
 	}
 	public List<OrgaoMembro> getMembros() {
 		return membros;

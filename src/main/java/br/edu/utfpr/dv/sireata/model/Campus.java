@@ -14,7 +14,6 @@ public class Campus {
 		this.setNome("");
 		this.setEndereco("");
 		this.setLogo(null);
-		this.setAtivo(true);
 		this.setSite("");
 	}
 	
@@ -41,12 +40,6 @@ public class Campus {
 	}
 	public void setLogo(byte[] logo) {
 		this.logo = logo;
-	}
-	public boolean isAtivo() {
-		return ativo;
-	}
-	public void setAtivo(boolean ativo) {
-		this.ativo = ativo;
 	}
 	public String getSite(){
 		return site;

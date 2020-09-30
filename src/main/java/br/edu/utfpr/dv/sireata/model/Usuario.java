@@ -18,7 +18,6 @@ public class Usuario {
 		this.setSenha("");
 		this.setEmail("");
 		this.setExterno(true);
-		this.setAtivo(true);
 		this.setAdministrador(false);
 	}
 	
@@ -57,12 +56,6 @@ public class Usuario {
 	}
 	public boolean isExterno(){
 		return externo;
-	}
-	public void setAtivo(boolean ativo){
-		this.ativo = ativo;
-	}
-	public boolean isAtivo(){
-		return ativo;
 	}
 	public boolean isAdministrador() {
 		return administrador;
