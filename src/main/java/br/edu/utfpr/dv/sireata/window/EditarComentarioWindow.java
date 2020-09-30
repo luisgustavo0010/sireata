@@ -12,7 +12,7 @@ import br.edu.utfpr.dv.sireata.bo.AtaBO;
 import br.edu.utfpr.dv.sireata.bo.ComentarioBO;
 import br.edu.utfpr.dv.sireata.model.Ata;
 import br.edu.utfpr.dv.sireata.model.Comentario;
-import br.edu.utfpr.dv.sireata.model.Comentario.SituacaoComentario;
+import br.edu.utfpr.dv.sireata.model.SituacaoComentario;
 
 public class EditarComentarioWindow extends EditarWindow {
 	

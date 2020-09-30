@@ -16,7 +16,7 @@ import com.vaadin.ui.themes.ValoTheme;
 
 import br.edu.utfpr.dv.sireata.bo.ComentarioBO;
 import br.edu.utfpr.dv.sireata.model.Comentario;
-import br.edu.utfpr.dv.sireata.model.Comentario.SituacaoComentario;
+import br.edu.utfpr.dv.sireata.model.SituacaoComentario;
 import br.edu.utfpr.dv.sireata.model.Pauta;
 
 public class ListarComentariosWindow extends Window {
